@@ -69,7 +69,7 @@
       <section id="contact" class="box">
         <div class="box-title">Contact</div>
         <div class="box-body">
-          <p>Want to get in touch? Drop me a line!</p>
+          <p>Want to get in touch?</p>
           <ul class="links">
             <li>✉ Email: <a href="mailto:haleighrenfroe@gmail.com">haleighrenfroe@gmail.com</a></li>
             <li>⌨ GitHub: <a href="https://github.com/haleighr">github.com/haleighr</a></li>
