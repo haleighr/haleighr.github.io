@@ -14,7 +14,16 @@
   const blinkies = ['family-guy', 'bliss', '70s-show', 'geek', 'sprite', 'surfer', 'clubpenguin', 'zombies', 'nyancat']
 
   const visitors = String(Math.floor(Math.random() * 90000) + 10000).padStart(6, '0')
+
+  const boom = new Audio('/sounds/button.wav')
+
+  function playBoom() {
+    boom.currentTime = 0
+    boom.play()
+  }
 </script>
+
+<svelte:window onclick={playBoom} />
 
 <div class="page">
   <header class="banner">
